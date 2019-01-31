@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#d9000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header" layout="@layout/view_common_header" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_avatar" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/ic_default_avatar_male" />
+    <EditText android:textSize="18.0dip" android:textColor="@color/white" android:textColorHint="#4dffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/et_nickname" android:background="@color/transparent" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:hint="请输入昵称" android:maxLines="1" android:maxLength="8" />
+    <View android:layout_gravity="center" android:background="#ff979797" android:layout_width="150.0dip" android:layout_height="1.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#4dffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_sex" android:layout_width="120.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="请选择性别" />
+    <View android:layout_gravity="center" android:background="#ff979797" android:layout_width="150.0dip" android:layout_height="1.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_finish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/ic_login_info_unconfirm" />
+</LinearLayout>
